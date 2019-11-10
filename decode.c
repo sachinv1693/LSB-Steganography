@@ -130,7 +130,7 @@ Status do_decoding(EncodeInfo* encInfo)
 								printf("ERROR: Invalid decode file extension.\n\n");
 								return e_failure;
 						}
-						strcpy((char*)encInfo->secret_fname, (const char*)temp_decode_name);
+						strcpy((char*)encInfo->decoded_fname, (const char*)temp_decode_name);
 						printf("INFO: Verifying user given decode file extension with that of the secret file..\n");
 						if (!strcmp((const char*)encInfo->extn_secret_file, (const char*)receive_str))
 						{
