@@ -36,7 +36,7 @@ If you want to provide your own decoded filename, you can do so using 3rd argume
 If a passcode is used while encoding, the above input results in an error.
 Now user has to provide the correct passcode as shown below:
 
-    ./a.out -d stego_img.bmp -p 123
+    ./a.out -d stego_img.bmp my_decoded_file.txt -p 123
     
 *You can provide the filename by its path like: Projects/Steganography/beautiful.bmp
 
