@@ -180,6 +180,7 @@ Status do_decoding(EncodeInfo* encInfo)
 		else
 		{
 				printf("ERROR: Failed to decode the secret file data!!\n\n");
+			        return e_failure;
 		}
 		free(receive_str);
 		return e_success;//No error found
