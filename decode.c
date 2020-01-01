@@ -241,7 +241,7 @@ uint decode_int_size_expression(EncodeInfo* encInfo)
 Status decode_file_data(uint f_size, EncodeInfo* encInfo)
 {
 		//Pointer to hold the heap memory of file size
-		uchar_ptr file_data = (uchar_ptr) malloc(f_size* sizeof(uchar));
+		uchar_ptr file_data = (uchar_ptr) malloc(f_size * sizeof(uchar));
 		if (file_data == NULL)
 		{
 				printf("ERROR: Unable to allocate dynamic memory.\n\n");
