@@ -9,7 +9,7 @@ For encoding, you have to use -e followed by an input image filename followed by
 
     ./a.out -e beautiful.bmp secret.txt
 
-The above input will generate an additional image file in the project directory namely "stego_img.bmp" which is default output filename
+The above input will generate an additional image file in the project directory namely "stego_img.bmp" which is default output filename.
 You can provide your own output filename by giving 4th argument as shown below:
 (Note that this filename must be having ".bmp" format, otherwise an error message will be shown)
     
