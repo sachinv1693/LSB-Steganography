@@ -5,7 +5,7 @@ Compile all the C files using:
 You can create a makefile to build this project if you want
 
 For encoding, you have to use -e followed by an input image filename followed by a secret filename.
-(Note that these files must be present in the current project directory, otherwise an error message appears. Also note that the input image filename must be having ".bmp" format to avoid error while the secret file can be of any format: .c, .cpp, .txt, .vhdl etc. But  it cannot exceed more than 4 characters because a macro MAX_FILE_SUFFIX has been set to 4. Also don't miss the dot in any filename. It will result in an error). Example -
+(Note that these files must be present in the current project directory, otherwise an error message appears. Also note that the input image filename must be having ".bmp" format to avoid error while the secret file can be of any format: .c, .cpp, .txt, .vhdl etc. But  the format type cannot exceed more than 4 characters because a macro MAX_FILE_SUFFIX has been set to 4. Also don't miss the dot in any filename. It will result in an error). Example -
 
     ./a.out -e beautiful.bmp secret.txt
 
